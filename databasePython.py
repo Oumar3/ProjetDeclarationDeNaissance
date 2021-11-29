@@ -3,7 +3,7 @@ from datetime import datetime
 conf={
     'host':'127.0.0.1',
     'user':'root',
-    'password':'66050543OAt@',
+    'password':'',
     'database':'Declaration_Naissance'
 }
 
