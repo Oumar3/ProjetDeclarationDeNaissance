@@ -1,3 +1,10 @@
+CREATE TABLE personnel(
+    id_personnel integer PRIMARY KEY NOT NULL,
+    nom_personnel     varchar(150) NOT NULL,
+    prenom_personnel  varchar(150) NOT NULL,
+    fonc_personnel     VARCHAR(100) NOT NULL
+)
+
 CREATE TABLE infoEnf(
     id_Enf integer PRIMARY KEY NOT NULL,
     id_personnel_fk integer NOT NULL,
