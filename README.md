@@ -10,3 +10,5 @@
 ###   • Vous devez créer une base de données MySQL (locale) ;
 ###   • Enfin vous devez créer un repository dans Github et gérer le versionning
 ### Deadline : Une semaine
+
+# Prerequis pour tester le programme
