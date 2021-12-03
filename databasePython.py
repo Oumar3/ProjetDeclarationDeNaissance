@@ -9,6 +9,7 @@ conf={
 
 connexion=mc.connect(**conf)
 cursor=connexion.cursor()
+print'Que la phase de saisie commence les ami(e)s \n'
 request="insert into infoEnf values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
 nom_Enf=input("Entrez le nom de l'enfant : ")
 prenom_Enf=input("Entrez le prenom de L'enfant : ")
