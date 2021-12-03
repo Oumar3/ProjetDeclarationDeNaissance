@@ -30,5 +30,5 @@ lieu_Naiss_Mere=input("Entrez lieu de naissance de mere : ")
 info=(cursor.lastrowid,1,nom_Enf,prenom_Enf,dateHeurNaissEnf,lieu_Naiss_Enf,sexe_Enf,nom_Pere,Sit_Matri_Pere,fonc_Pere,date_Naiss_Pere,lieu_Naiss_Pere,nom_Mere,Sit_Matri_Mere,fonc_Mere,date_Naiss_Mere,lieu_Naiss_Pere)
 cursor.execute(request,info)
 connexion.commit()
-
+print"Je suis Mariam et je suis aussi d'accord pour ce code \n"
 #1980-12-1 23:59:59
