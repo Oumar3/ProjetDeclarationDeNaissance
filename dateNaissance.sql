@@ -12,7 +12,7 @@ CREATE TABLE infoEnf(
     prenom_Enf VARCHAR(100) NOT NULL,
     date_Heur_Naiss_Enf DATETIME NOT NULL,
     lieu_Naiss_Enf VARCHAR(100) NOT NULL,
-    sexe_Enf VARCHAR(10) NOT NULL,
+    heure_Naiss_Enfant VARCHAR(100) NOT NULL, #modification clotilde
     nom_Pere VARCHAR(100) NOT NULL,
     sit_Matri_Pere VARCHAR(100) NOT NULL,
     fonc_Pere VARCHAR(100) NOT NULL,

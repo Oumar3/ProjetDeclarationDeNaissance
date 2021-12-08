@@ -15,6 +15,7 @@ nom_Enf=input("Entrez le nom de l'enfant : ")
 prenom_Enf=input("Entrez le prenom de L'enfant : ")
 dateHeurNaissEnf=datetime.now()
 lieu_Naiss_Enf=input("Entrez le lieu de naissance de l'enfant : ")
+heure_Naiss_Enf=input("entrez l'heure de naissance de l'enfant : ")
 sexe_Enf=input("Entrez le sexe de l'enfant : ")
 nom_Pere=input("Entrez le nom de pere : ")
 Sit_Matri_Pere=input("Entrez situation matrimonial de pere : ")
@@ -31,4 +32,5 @@ info=(cursor.lastrowid,1,nom_Enf,prenom_Enf,dateHeurNaissEnf,lieu_Naiss_Enf,sexe
 cursor.execute(request,info)
 connexion.commit()
 print"Je suis Mariam et je suis aussi d'accord pour ce code \n"
+print"je suis egalement d'accord, j'ai ajouter l'heure de naissance pour une meilleure precison.\n"
 #1980-12-1 23:59:59
