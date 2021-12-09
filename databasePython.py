@@ -31,4 +31,5 @@ info=(cursor.lastrowid,1,nom_Enf,prenom_Enf,dateHeurNaissEnf,lieu_Naiss_Enf,sexe
 cursor.execute(request,info)
 connexion.commit()
 print"Je suis Mariam et je suis aussi d'accord pour ce code \n"
+print"Je suis Hisseine Hassane Abakar et je suis aussi d'accord pour ce code \n"
 #1980-12-1 23:59:59
