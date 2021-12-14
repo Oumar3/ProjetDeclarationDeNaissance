@@ -3,19 +3,17 @@ from datetime import datetime
 conf={
     'host':'127.0.0.1',
     'user':'root',
-    'password':'',
+    'password':'66050543OAt@',
     'database':'Declaration_Naissance'
 }
 
 connexion=mc.connect(**conf)
 cursor=connexion.cursor()
-print'Que la phase de saisie commence les ami(e)s \n'
 request="insert into infoEnf values(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
 nom_Enf=input("Entrez le nom de l'enfant : ")
 prenom_Enf=input("Entrez le prenom de L'enfant : ")
 dateHeurNaissEnf=datetime.now()
 lieu_Naiss_Enf=input("Entrez le lieu de naissance de l'enfant : ")
-heure_Naiss_Enf=input("entrez l'heure de naissance de l'enfant : ")
 sexe_Enf=input("Entrez le sexe de l'enfant : ")
 nom_Pere=input("Entrez le nom de pere : ")
 Sit_Matri_Pere=input("Entrez situation matrimonial de pere : ")
@@ -31,6 +29,5 @@ lieu_Naiss_Mere=input("Entrez lieu de naissance de mere : ")
 info=(cursor.lastrowid,1,nom_Enf,prenom_Enf,dateHeurNaissEnf,lieu_Naiss_Enf,sexe_Enf,nom_Pere,Sit_Matri_Pere,fonc_Pere,date_Naiss_Pere,lieu_Naiss_Pere,nom_Mere,Sit_Matri_Mere,fonc_Mere,date_Naiss_Mere,lieu_Naiss_Pere)
 cursor.execute(request,info)
 connexion.commit()
-print"Je suis Mariam et je suis aussi d'accord pour ce code \n"
-print"je suis egalement d'accord, j'ai ajouter l'heure de naissance pour une meilleure precison.\n"
+
 #1980-12-1 23:59:59

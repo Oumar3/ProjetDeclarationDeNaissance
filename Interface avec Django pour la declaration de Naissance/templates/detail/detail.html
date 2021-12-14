@@ -1,0 +1,46 @@
+{% extends 'base/index.html'%}
+{%block content%}
+
+
+<div class="acte">
+    <h1>Declaration De Naissance N°{{details.id}}</h1>
+    <div>
+        <p>Nom: {{details.nom_enf}}</p> 
+    </div>
+    <div>
+        <p>Prenom: {{details.prenom_enf}}</p>
+    </div>
+    <div>
+        <p>Date De Naissance: {{details.Date_De_Naissance_enf}}</p>
+    </div>
+    <div>
+        <p>Lieu De Naissance: {{details.lieu_De_Naissance_enf}}</p> 
+    </div>
+    <div>
+        <p>Nom Du Pere: {{details.nom_pere}}</p>
+    </div>
+    <div>
+        <p>Date De Naissance Du Pere: {{details.Date_De_Naissance_pere}}</p>
+    </div>
+    <div>
+        <p>Lieu De Naissance Du Pere: {{details.lieu_De_Naissance_pere}}</p> 
+    </div>
+    <div>
+        <p>Fonction Du Pere: {{details.fonction_pere}}</p>
+    </div>
+    <div>
+        <p>Nom De La Mere: {{details.nom_mere}}</p>
+    </div>
+    <div>
+        <p>Date De Naissance De La Mere: {{details.Date_De_Naissance_mere}}</p>
+    </div>
+    <div>
+        <p>Lieu De Naissance De La Mere: {{details.lieu_De_Naissance_mere}}</p> 
+    </div>
+    <div>
+        <p>Fonction De La Mere: {{details.fonction_mere}}</p>
+    </div>
+</div>
+
+{%endblock%}
+

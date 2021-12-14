@@ -1,8 +1,8 @@
 CREATE TABLE personnel(
     id_personnel integer PRIMARY KEY NOT NULL,
-    nom_personnel     varchar(150) NOT NULL,
-    prenom_personnel  varchar(150) NOT NULL,
-    fonc_personnel     VARCHAR(100) NOT NULL
+    nom VARCHAR(100) NOT NULL,
+    prenom VARCHAR(100) NOT NULL,
+    fonction VARCHAR(100) NOT NULL,
 )
 
 CREATE TABLE infoEnf(
@@ -12,7 +12,7 @@ CREATE TABLE infoEnf(
     prenom_Enf VARCHAR(100) NOT NULL,
     date_Heur_Naiss_Enf DATETIME NOT NULL,
     lieu_Naiss_Enf VARCHAR(100) NOT NULL,
-    heure_Naiss_Enfant VARCHAR(100) NOT NULL, #modification clotilde
+    sexe_Enf VARCHAR(10) NOT NULL,
     nom_Pere VARCHAR(100) NOT NULL,
     sit_Matri_Pere VARCHAR(100) NOT NULL,
     fonc_Pere VARCHAR(100) NOT NULL,

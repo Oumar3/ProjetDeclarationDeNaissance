@@ -1,0 +1,41 @@
+{% extends 'base/index.html'%}
+{%block content%}
+
+<table border="1" style="text-align: center; background-color: gray; text-align: center;">
+    <tr>
+        <th>id</th>
+        <th>nom</th>
+        <th>prenom</th>
+        <!-- <th>date_nais</th>
+        <th>lieu_enf</th>
+        <th>nom_pere</th>
+        <th>Date_pere</th>
+        <th>lieu_pere</th>
+        <th>fonct_pere</th>
+        <th>nom_mere</th>
+        <th>Date_mere</th>
+        <th>lieu_mere</th>
+        <th>fonct_mere</th> -->
+    </tr>
+   
+        {%for enfant in listeEnfants %}
+      
+        <tr>
+            <th class="id"> <a href="detail/{{enfant.id}}">{{enfant.id}}</a></th>
+            <th>{{enfant.nom_enf}}</th>
+            <th>{{enfant.prenom_enf}}</th> 
+            <!-- <th>{{enfant.Date_De_Naissance_enf}}</th> 
+            <th>{{enfant.lieu_De_Naissance_enf}}</th>
+            <th>{{enfant.nom_pere}}</th>
+            <th>{{enfant.Date_De_Naissance_pere}}</th> 
+            <th>{{enfant.lieu_De_Naissance_pere}}</th> 
+            <th>{{enfant.fonction_pere}}</th> 
+            <th>{{enfant.nom_mere}}</th>
+            <th>{{enfant.Date_De_Naissance_mere}}</th>
+            <th>{{enfant.lieu_De_Naissance_mere}}</th> 
+            <th>{{enfant.fonction_mere}}</th>  -->
+          
+        </tr>
+        {%endfor%}
+</table>
+{%endblock%}

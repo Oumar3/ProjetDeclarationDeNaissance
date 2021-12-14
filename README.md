@@ -1,5 +1,5 @@
 # ProjetDeclarationDeNaissance
-# C'est un projet donné par le formateur Sakayo 
+
 
 
 ## Titre du projet : Mettre sur pied une base de données pour l’enregistrement des naissances en utilisant Python et MySQL.
@@ -11,4 +11,11 @@
 ###   • Enfin vous devez créer un repository dans Github et gérer le versionning
 ### Deadline : Une semaine
 
-# Prerequis pour tester le programme
+# Prérequis pour utiliser notre programme 
+	1-installer python3
+	2-installer django version '3.2.9'
+	3-installer mysql-server
+	4-creer un utilisateur de nom 'root'avec le mot de passe 1234
+	5-creer une base de donnée dénommer Naissance avec cet utilisateur root
+	6-il faut se positionner sur le dossier declarationNaissance pour lancer django
+	
